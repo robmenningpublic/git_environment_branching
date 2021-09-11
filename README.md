@@ -6,6 +6,6 @@ These files demonstrate one approach to Git branching in a multi-developer enter
 
 The main goals of this strategy are:
 1. One dedicated branch for each environment for clean integration with CI/CD pipes.
-2. Protect the master branch (production environment) from unintended changes during deployments.
+2. Protect the production branch (production environment) from unintended changes during deployments.
 3. Isolate deployments to small autonomous changes for simpler rollback.
-4. Disover merge conflicts early and often.
+4. Discover merge conflicts early and often.
